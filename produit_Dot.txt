@@ -1,0 +1,10 @@
+PROCEDURE dotProduct(v1:Vector, v2:Vector)
+{
+var sum = 0;
+
+	for(var i = 0; i < v1.length; i++)
+
+        for(var j = 0; j < v2.length; j++)
+
+		sum += v1[i]*v2[j];
+}
